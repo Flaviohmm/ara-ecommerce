@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es5",                          // Versão do JavaScript para compilar
+      "lib": ["dom", "dom.iterable", "esnext"], // Bibliotecas a serem incluídas
+      "allowJs": true,                           // Permitir arquivos .js
+      "skipLibCheck": true,                      // Pular verificação de tipos em arquivos de biblioteca
+      "strict": true,                            // Habilitar todas as verificações de tipo
+      "forceConsistentCasingInFileNames": true, // Forçar a consistência de maiúsculas/minúsculas nos nomes de arquivos
+      "noEmit": true,                            // Não emitir arquivos `.js`
+      "esModuleInterop": true,                   // Habilitar interoperação entre módulos ES e CommonJS
+      "module": "esnext",                        // Tipo de módulo a ser utilizado
+      "moduleResolution": "node",                // Resolver módulos a partir do Node.js
+      "jsx": "react-jsx"                         // Compatibilidade com JSX
+    },
+    "include": ["src", "tsconfig.json"],                         // Pasta a ser incluída na compilação
+    "exclude": ["node_modules"]                 // Pasta a ser excluída da compilação
+}
